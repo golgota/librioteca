@@ -1,0 +1,11 @@
+<h1 class="text-center mb5">
+  Editing User - <%= @user %>
+</h1>
+
+<div class="text-center mb15">
+  <%= link_to 'Show', @user %> |
+  <%= link_to 'Back', users_path %>
+</div>
+
+<%= render 'form', user: @user %>
+

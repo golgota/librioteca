@@ -1,0 +1,40 @@
+<h1 class="text-center mb5">Users</h1>
+
+<div class="text-center mb15">
+  <%= link_to 'New User', new_user_path %>
+</div>
+
+<div class="panel">
+  <div class="panel-body">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th colspan="3"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <% @users.each do |user| %>
+            <tr>
+              <td><%= user.name %></td>
+              <td><%= user.email %></td>
+              <td><%= user.password %></td>
+              <td class="action"><%= link_to 'Show', user,
+                class: "btn btn-sm btn-block btn-default" %></td>
+              <td class="action"><%= link_to 'Edit', edit_user_path(user),
+                class: "btn btn-sm btn-block btn-primary" %></td>
+              <td class="action"><%= link_to 'Destroy', user,
+                class: "btn btn-sm btn-block btn-danger",
+                method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
