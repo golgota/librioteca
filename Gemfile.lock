@@ -69,8 +69,6 @@ GEM
     factory_girl_rails (4.7.0)
       factory_girl (~> 4.7.0)
       railties (>= 3.0.0)
-    genesis_rails (0.1.1)
-      rails (>= 4.2)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
@@ -171,6 +169,8 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    silmarails (0.1.1)
+      rails (>= 4.2)
     simple_form (3.2.1)
       actionpack (> 4, < 5.1)
       activemodel (> 4, < 5.1)
@@ -209,7 +209,6 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   database_cleaner
   factory_girl_rails
-  genesis_rails
   jbuilder (~> 2.0)
   jquery-rails
   kaminari
@@ -222,6 +221,7 @@ DEPENDENCIES
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+  silmarails
   simple_form
   spring
   turbolinks

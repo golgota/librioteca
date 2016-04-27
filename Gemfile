@@ -32,7 +32,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'genesis_rails'
+gem 'silmarails'
 gem 'kaminari'
 gem 'responders'
 gem 'simple_form'
