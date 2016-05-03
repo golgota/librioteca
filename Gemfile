@@ -35,6 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'silmarails'
 gem 'kaminari'
 gem 'responders'
+gem 'puma'
 gem 'simple_form'
 
 group :test do
