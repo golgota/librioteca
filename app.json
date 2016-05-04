@@ -6,19 +6,34 @@
   },
   "env": {
     "LANG": {
-      "required": true
+      "description": "The locale",
+      "required": true,
+      "value": "en_US.UTF-8"
     },
     "RACK_ENV": {
-      "required": true
+      "description": "The environment",
+      "required": true,
+      "value": "production"
     },
     "RAILS_ENV": {
-      "required": true
+      "description": "The environment",
+      "required": true,
+      "value": "production"
     },
     "RAILS_SERVE_STATIC_FILES": {
-      "required": true
+      "description": "Do you want to serve that public files?",
+      "required": true,
+      "value": "enabled"
     },
     "SECRET_KEY_BASE": {
-      "required": true
+      "description": "The rails secret key.",
+      "required": true,
+      "generator": "secret"
+    },
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run in each dyno.",
+      "required": true,
+      "value": "5"
     }
   },
   "formation": {
