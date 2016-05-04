@@ -2,7 +2,7 @@
   "name": "librioteca",
   "description": "",
   "scripts": {
-    "postdeploy": "bundle exec rake db:schema:dump db:seed"
+    "postdeploy": "bundle exec rake db:schema:load db:seed"
   },
   "env": {
     "LANG": {
