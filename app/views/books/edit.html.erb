@@ -1,0 +1,11 @@
+<h1 class="text-center mb5">
+  Editing Book - <%= @book.to_title %>
+</h1>
+
+<div class="text-center mb15">
+  <%= link_to 'Show', @book %> |
+  <%= link_to 'Back', books_path %>
+</div>
+
+<%= render 'form', book: @book %>
+
