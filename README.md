@@ -1,4 +1,4 @@
-== librioteca
+# librioteca
 
 [![Code Climate](https://codeclimate.com/github/golgota/librioteca/badges/gpa.svg)](https://codeclimate.com/github/golgota/librioteca)
 [![Test Coverage](https://codeclimate.com/github/golgota/librioteca/badges/coverage.svg)](https://codeclimate.com/github/golgota/librioteca/coverage)
