@@ -4,6 +4,8 @@
 [![Test Coverage](https://codeclimate.com/github/golgota/librioteca/badges/coverage.svg)](https://codeclimate.com/github/golgota/librioteca/coverage)
 [![Issue Count](https://codeclimate.com/github/golgota/librioteca/badges/issue_count.svg)](https://codeclimate.com/github/golgota/librioteca)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
