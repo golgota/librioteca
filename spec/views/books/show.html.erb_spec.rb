@@ -7,11 +7,11 @@ RSpec.describe "books/show", type: :view do
 
   it "renders attributes in <p>" do
     render
-    expect(rendered).to match(/Title/)
-    expect(rendered).to match(/Author/)
-    expect(rendered).to match(/Isbn/)
-    expect(rendered).to match(/1/)
-    expect(rendered).to match(/2/)
-    expect(rendered).to match(/Publishing House/)
+    expect(rendered).to match(/Harry Potter/)
+    expect(rendered).to match(/J. K. Rowling/)
+    expect(rendered).to match(/9788532511010/)
+    expect(rendered).to match(/2000/)
+    expect(rendered).to match(/224/)
+    expect(rendered).to match(/Rocco/)
   end
 end
